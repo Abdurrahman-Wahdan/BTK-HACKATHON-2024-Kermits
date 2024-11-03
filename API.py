@@ -11,7 +11,7 @@ from google.ai.generativelanguage_v1beta.types import content
 import RAG
 
 # Configure the Google GenAI API
-genai.configure(api_key="AIzaSyBlFCGwvuT0g_imV1YAUPMl3n_zBuiasFE")#AIzaSyDKHlerdweaJEA078WtPwWgWRJUF01WukE
+genai.configure(api_key="GEMINI_API_KEY")
 
 app = Flask(__name__)
 
