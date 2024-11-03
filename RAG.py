@@ -7,7 +7,7 @@ import re
 from PyPDF2 import PdfReader
 from typing import List
 
-os.environ["GEMINI_API_KEY"]="AIzaSyDKHlerdweaJEA078WtPwWgWRJUF01WukE"
+os.environ["GEMINI_API_KEY"]="KEY_IS_HERE"
 
 class GeminiEmbeddingFunction(EmbeddingFunction):
     """
