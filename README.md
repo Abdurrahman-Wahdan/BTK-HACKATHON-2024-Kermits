@@ -72,6 +72,8 @@ In summary, this functionality utilizes Gemini's new function calling feature, a
 ### Ask Question Functionality
 When a user uploads a PDF, the document is automatically divided into smaller chunks in the background, and embeddings are created for each chunk. When the user poses a question, the model uses these embeddings to retrieve relevant information from the document. This enables the system to perform **Retrieval-Augmented Generation (RAG)**, where it intelligently finds and provides answers based on the content of the uploaded material.
 
+We can also ask questions by uploading images. Gemini processes and responses the questions with its Vision Language feature.
+
 This process allows for precise, context-based answers by focusing on relevant parts of the document, making interactions both efficient and informative.
 
 
